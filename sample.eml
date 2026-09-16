@@ -1,0 +1,32 @@
+From: "PayPal Security Alert" <support@paypa1-update-security.com>
+To: "Target User" <user@example.com>
+Subject: URGENT: Your Account Has Been Suspended - Verify Immediately!
+Date: Fri, 11 Sep 2026 10:00:00 +0000
+Message-ID: <20260911100000.12345.qmail@phish-server.com>
+Reply-To: phisher-collect@darkwebmail.com
+Return-Path: <bounce@phish-server.com>
+Authentication-Results: mx.google.com;
+       dkim=fail header.i=@paypa1-update-security.com;
+       spf=fail (google.com: domain of bounce@phish-server.com does not designate 192.0.2.45 as permitted sender) smtp.mailfrom=bounce@phish-server.com;
+       dmarc=fail (p=REJECT sp=REJECT dis=NONE) header.from=paypa1-update-security.com
+Received: from mail.phish-server.com (mail.phish-server.com [192.0.2.45])
+	by mx.google.com with ESMTPS id xyz12345
+	for <user@example.com>;
+	Fri, 11 Sep 2026 10:00:01 +0000
+Content-Type: text/plain; charset="UTF-8"
+
+Dear Customer,
+
+We detected unauthorized access to your account from IP address 198.51.100.77.
+Your account has been temporarily suspended to prevent fraud.
+
+To restore access, please click the secure link below to verify your login credentials and update your billing details within 24 hours:
+
+http://198.51.100.77/login/verify-account.php
+http://paypa1-update-security.com/account/login.html
+http://suspicious-redirect.com/verify?id=99283
+
+If you do not update your details immediately, your account will be permanently disabled.
+
+Thank you,
+PayPal Security Team
